@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alavancagem</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <span class="titulo">
+            <h1>Alavancagem</h1>
+        </span>
+        <div class="operacao">
+            <div class="compra" onclick="Operacao(this)">
+                Comprar
+            </div>
+            <div class="venda" onclick="Operacao(this)">
+                Vender
+            </div>
+        </div>
+        <div class="informacoes">
+            <label for="preco-operacao">Digite o valor inicial</label>
+            <input type="number" name="preco-operacao" id="preco-operacao">
+
+            <label for="alavancagem" >Digite a alavancagem</label>
+            <input type="number" name="alavancagem" id="alavancagem">
+
+            <label for="porcentagem-stop" >Digite a porcentagem de stop</label>
+            <input type="number" name="porcentagem-stop" id="porcentagem-stop">
+
+            <div class="resultado">
+                <h1></h1>
+                <div class="calcular" onclick="Calcular()">
+                    Calcular
+                </div> 
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
