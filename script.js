@@ -32,16 +32,16 @@ function Calcular() {
     alavancagem = document.getElementById("alavancagem").value;
     porcentagemStop = document.getElementById("porcentagem-stop").value;
 
-    valorInicial = Number(valorInicial);
-    alavancagem = Number(alavancagem);
-    porcentagemStop = Number(porcentagemStop);
+    // valorInicial = Number(valorInicial);
+    // alavancagem = Number(alavancagem);
+    // porcentagemStop = Number(porcentagemStop);
 
-    if (operacao === 'Compra') {
+    if (operacao === 'Comprar') {
         precoFinal = valorInicial * (1 + (porcentagemStop / (100 * alavancagem)));
-    } else if (operacao === 'Venda') {
+    } else if (operacao === 'Vender') {
         precoFinal = valorInicial * (1 - (porcentagemStop / (100 * alavancagem)));
     }
-    precoFinal = precoFinal.toFixed(4);
+   precoFinal = precoFinal.toFixed(4);
     if (isNaN(precoFinal)) {
         alert('Preencha todos os campos corretamente');
     }
