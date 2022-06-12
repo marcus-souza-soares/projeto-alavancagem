@@ -37,9 +37,9 @@ function Calcular() {
     // porcentagemStop = Number(porcentagemStop);
 
     if (operacao === 'Comprar') {
-        precoFinal = valorInicial * (1 + (porcentagemStop / (100 * alavancagem)));
-    } else if (operacao === 'Vender') {
         precoFinal = valorInicial * (1 - (porcentagemStop / (100 * alavancagem)));
+    } else if (operacao === 'Vender') {
+        precoFinal = valorInicial * (1 + (porcentagemStop / (100 * alavancagem)));
     }
    precoFinal = precoFinal.toFixed(4);
     if (isNaN(precoFinal)) {
