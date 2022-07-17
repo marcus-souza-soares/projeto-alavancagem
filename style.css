@@ -5,7 +5,7 @@ html {
     height: 100%;
 }
 body {
-    background-color: #3a32a8;
+    background-color: #00635d;
     height: 100%;
     padding: 0 20px;
     
@@ -13,12 +13,11 @@ body {
 
 .container {
     width: 100%;
-    height: 100%;
+    height: 70vh;
     max-width: 1000px;
-    max-height: 500px;
-    background-color: #FFFFFF;
+    background-color: #08a4bd;
     border-radius: 10px;
-    box-shadow: 1px 2px black;
+    box-shadow: 1px 1px 5px black;
     margin: 100px auto;
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
@@ -42,7 +41,7 @@ body {
     width: 100px;
     height: 30px;
     border-radius: 5px;
-    box-shadow: 1px 1px 2px black;
+    box-shadow: 1px 1px 1px 1px black;
     color: #FFFFFF;
 }
 .compra, .venda, .calcular:hover{
@@ -50,10 +49,10 @@ body {
 }
 
 .compra {
-    background-color: #5da832;
+    background-color: #446df6;
 }
 .venda{
-    background-color: #d44c4c;
+    background-color: #4c212a;
 }
 .informacoes{
     display: flex;
@@ -67,7 +66,7 @@ body {
 
 .informacoes input{
     width: 80%;
-    height: 30px;
+    height: 35px;
     padding-left: 10px;
     border-radius: 5px;
     margin-top: 5px;
