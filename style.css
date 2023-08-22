@@ -86,3 +86,7 @@ body {
 .selecionado {
     filter: brightness(0.5);
 }
+
+.informacoes span {
+    color: #fff;
+}
